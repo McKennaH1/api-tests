@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: cluster-1    # Add your cluster name here.
   GKE_ZONE: us-central1   # Add your cluster zone here.
   DEPLOYMENT_NAME: mckenna-api # Add your deployment name here. testing full tutorial follow, now added docker image in cloud
-  IMAGE: api-tests
+  IMAGE: mckenna-api
 
 jobs:
   setup-build-publish-deploy:
